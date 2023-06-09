@@ -3,6 +3,10 @@
 #### This repository contains the PyTorch implementation of the paper "Diffusion-Driven Self-Supervised Network for Multi-Object 3D Shape Reconstruction and Categorical 6-DoF Pose Estimation". we introduce a novel pretrain-to-reinforce paradigm that contributes to self-supervised categorical 6-DoF pose estimation and 3D shape reconstruction for multiple objects.
 
 ![image](https://github.com/S-JingTao/Categorical-3D_SRPE/assets/26479294/bd3a10b6-5b61-469a-8139-138584256075)
+
+# Visualization of the diffusion process in our method
+![generate-more-small](https://github.com/S-JingTao/Categorical-3D_SRPE/assets/26479294/03555ae2-e2e0-4c60-a982-f1e3a1bc50bf)
+
 # Dependencies
 * Python 3.8
 * PyTorch 1.0.1
@@ -60,4 +64,4 @@ evaluate the 3D shape reconstruction
 python evaluate_shape.py
 ```
 # Acknowledgement
-Our implementation leverages the code from NOCS, SGPA and  NOCS.
+Our implementation leverages the code from SPD, SGPA and  NOCS.
