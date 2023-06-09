@@ -32,3 +32,11 @@ python setup.py install
 ```
 # Dataset
 Download camera_train, camera_val, real_train, real_test, ground-truth annotations and mesh models provided by NOCS. Then, organize and preprocess these files following SPD https://github.com/mentian/object-deformnet.
+
+Run python scripts to prepare the datasets.
+```bash
+cd Categorical-3D_SRPE/dataset
+python generate_list.py
+python shape_data.py
+python pose_data.py
+```
