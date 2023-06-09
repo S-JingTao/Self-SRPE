@@ -65,4 +65,4 @@ python evaluate_shape.py
 ```
 # Acknowledgement
 Our implementation leverages the code from SPD, SGPA and  NOCS.
-(code will be update......)
+(code will be updated after the paper has been accepted......)
