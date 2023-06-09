@@ -31,3 +31,4 @@ cd Categorical-3D_SRPE/lib/nn_distance
 python setup.py install
 ```
 # Dataset
+Download camera_train, camera_val, real_train, real_test, ground-truth annotations and mesh models provided by NOCS. Then, organize and preprocess these files following SPD https://github.com/mentian/object-deformnet.
