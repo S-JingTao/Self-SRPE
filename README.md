@@ -20,8 +20,13 @@ conda create -y --prefix ./env python=3.8
 conda activate ./env/
 ./env/bin/python -m pip install --upgrade pip
 ```
-
-
-cd $ROOT/lib/nn_distance
-
-python setup.py install --user
+Build PointNet++
+```bash
+cd Categorical-3D_SRPE/lib/pointnet2/pointnet2
+python setup.py install
+```
+Build nn_distance
+```bash
+cd Categorical-3D_SRPE/lib/nn_distance
+python setup.py install
+```
