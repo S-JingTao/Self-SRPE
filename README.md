@@ -7,3 +7,20 @@
 * Python 3.8
 * PyTorch 1.0.1
 * CUDA 9.0
+* PIL
+* scipy
+* numpy
+
+# Installation
+Using the conda to setup the virtual environment. If you have already installed conda, please use the following commands.
+ROOT=/path/to/Categorical-3D_SRPE
+
+cd ROOT
+
+conda create -n srpe python=3.8
+
+conda activate srpe
+
+cd $ROOT/lib/nn_distance
+
+python setup.py install --user
