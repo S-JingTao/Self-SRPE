@@ -13,13 +13,14 @@
 
 # Installation
 Using the conda to setup the virtual environment. If you have already installed conda, please use the following commands.
-ROOT=/path/to/Categorical-3D_SRPE
 
-cd ROOT
+```bash
+cd $Categorical-3D_SRPE
+conda create -y --prefix ./env python=3.8
+conda activate ./env/
+./env/bin/python -m pip install --upgrade pip
+```
 
-conda create -n srpe python=3.8
-
-conda activate srpe
 
 cd $ROOT/lib/nn_distance
 
