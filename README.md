@@ -40,3 +40,24 @@ python generate_list.py
 python shape_data.py
 python pose_data.py
 ```
+# Training
+train a pre-trained shape reconstruction model:
+```bash
+cd Categorical-3D_SRPE
+python net_train.py
+```
+fine-tuning model
+```bash
+python net_fine_tuning.py
+```
+# Evaluation
+evaluate the 6D pose and 3D size
+```bash
+python evaluate_pose.py
+```
+evaluate the 3D shape reconstruction
+```bash
+python evaluate_shape.py
+```
+# Acknowledgement
+Our implementation leverages the code from NOCS, SGPA and  NOCS.
