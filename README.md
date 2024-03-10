@@ -1,5 +1,5 @@
-# Categorical-3D_SRPE
-Diffusion-Driven Self-Supervised Network for Multi-Object 3D Shape Reconstruction and Categorical 6-DoF Pose Estimation
+# Self-SRPE
+Diffusion-Driven Self-Supervised Learning for Shape Reconstruction and Pose Estimation
 # Overview
 #### This repository contains the PyTorch implementation of the paper "Diffusion-Driven Self-Supervised Network for Multi-Object 3D Shape Reconstruction and Categorical 6-DoF Pose Estimation". we introduce a novel pretrain-to-reinforce paradigm that contributes to self-supervised categorical 6-DoF pose estimation and 3D shape reconstruction for multiple objects.
 
@@ -65,6 +65,6 @@ evaluate the 3D shape reconstruction
 python evaluate_shape.py
 ```
 # Acknowledgement
-(1) Our implementation leverages the code from SPD, SGPA and  NOCS.
+(1) Our implementation leverages the code from SPD, SGPA and  NOCS and ControlNet.
 
 (2) Code will be updated after the paper has been accepted......
