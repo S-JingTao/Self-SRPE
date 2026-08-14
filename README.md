@@ -65,6 +65,5 @@ evaluate the 3D shape reconstruction
 python evaluate_shape.py
 ```
 # Acknowledgement
-(1) Our implementation leverages the code from SPD, SGPA and  NOCS and ControlNet.
+Our implementation leverages the code from SPD, SGPA and  NOCS and ControlNet.
 
-(2) Code will be updated after the paper has been accepted......
